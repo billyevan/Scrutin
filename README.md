@@ -6,7 +6,7 @@ To launch, launch the following commands:
 
 $ make
 
-$ scrutin -i [csv file] | -d ][csv file] -o  [txt file] -m [method]
+$ scrutin -i [csv file] | -d [csv file] -o  [txt file] -m [method]
 
 This program reads a .csv file containing either the voters' ballot (the voter's data with their associated order of preference for each candidate) or a matrix of pairwise preferences, then determines the winner using the following methods:
  - Uninominal à un tour (single-round race) [As applied in the UK and Commonwealth countries]
